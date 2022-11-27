@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket da Sorte - Insira seu codigo e descubra!</title>
+    <script>
+
+        function inserirTicket(){
+            var input = document.getElementById("input")
+            
+            var pegarPremio = document.getElementById("premio");
+            var inputValue = input.value;
+            
+            // oii meu amor! Feliz 4 meses! Por essas horas voce deve
+            // estar me odiando pelo trabalho que esse presente tá te dando KKKKK
+            // Eu te amo infinito, meu Jericho, minha amorinha, meu neneco lindo,
+            // e, principalmente, meu denguinho!.
+            // Ps.: Mensagem curta para não te fazer sofrer tanto
+
+            if(inputValue === "6aB43kJ"){
+                pegarPremio.innerHTML = "1599" //oii
+            }
+            else if(inputValue === "4gh5dE2"){
+                pegarPremio.innerHTML = "13521 1131518!"; // meu amor!
+            }
+            else if(inputValue === "P21aj67"){
+                pegarPremio.innerHTML = "6512926"; // feliz
+            }
+            else if(inputValue === "KKg43i9"){
+                pegarPremio.innerHTML = "4 13519519!"; // 4 meses!
+            }
+            else if(inputValue === "jH4f6vB"){
+                pegarPremio.innerHTML = "161518 51919119 81518119"; // por essas horas
+            }
+            else if(inputValue === "T3cfD8n"){
+                pegarPremio.innerHTML = "221535"; //voce
+            }
+            else if(inputValue === "g98rFD5"){
+                pegarPremio.innerHTML = "45225 51920118"; // deve estar
+            }
+            else if(inputValue === "AP2Rc30"){
+                pegarPremio.innerHTML = "135 1549114415 165915"; // me odiando pelo
+            }
+            else if(inputValue === "Bh45fsR"){
+                pegarPremio.innerHTML = "201812112815"; // trabalho 
+            }
+            else if(inputValue === "Qq3c5wr"){
+                pegarPremio.innerHTML = "17215 519195 1618519514205"; // que esse presente
+            }
+            else if(inputValue === "E2hr678"){
+                pegarPremio.innerHTML = "519201 205"; //esta te
+            }
+            else if(inputValue === "Jb4b52v"){
+                pegarPremio.innerHTML = "4114415 11111111"; //dando KKKK
+            }
+            else if(inputValue === "heg5TRe"){
+                pegarPremio.innerHTML = "521"; //Eu
+            }
+            else if(inputValue === "JHGd68f"){
+                pegarPremio.innerHTML = "205 11315"; //te amo
+            }
+            else if(inputValue === "vgft5SD"){
+                pegarPremio.innerHTML = "914691492015,"; //infinito,
+            }
+            else if(inputValue === "4sbw76j"){
+                pegarPremio.innerHTML = "(1) 13521 1051893815,"; //(1) meu Jericho,
+            }
+            else if(inputValue === "Kaks64a"){
+                pegarPremio.innerHTML = "(2) 1391481 113151891481,"; //(2)minha amorinha,
+            }
+            else if(inputValue === "Gfda5v4"){
+                pegarPremio.innerHTML = "(3) 13521 145145315"; //(3)meu neneco
+            }
+            else if(inputValue === "d55fjf2"){
+                pegarPremio.innerHTML = "12914415,"; //lindo,
+            }
+            else if(inputValue === "86gs7iw"){
+                pegarPremio.innerHTML = "5,"; //e,
+            }
+            else if(inputValue === "BbFE58p"){
+                pegarPremio.innerHTML = "1618914391611213514205,"; //principalmente,
+            }
+            else if(inputValue === "mnU7G6t"){
+                pegarPremio.innerHTML = "(4) 13521 4514721914815."; //(4)meu denguinho.
+            }
+            else if(inputValue === "Aj21Pr3"){
+                pegarPremio.innerHTML = "1619.:"; //Ps.: 
+            }
+            else if(inputValue === "MnBt665"){
+                pegarPremio.innerHTML = "13514191917513"; //Mensagem
+            }
+            else if(inputValue === "jhF6TaP"){
+                pegarPremio.innerHTML = "32118201"; //curta
+            }
+            else if(inputValue === "NBYUr65"){
+                pegarPremio.innerHTML = "161181 14115"; //para nao
+            }
+            else if(inputValue === "nyr721S"){
+                pegarPremio.innerHTML = "205 6126518"; //te fazer
+            }
+            else if(inputValue === "LOVEU<3"){
+                pegarPremio.innerHTML = "1915618518"; //sofrer 
+            }
+            else if(inputValue === "wei532e"){
+                pegarPremio.innerHTML = "201142015"; //tanto
+            }
+            else{
+                pegarPremio.innerHTML = "CÓDIGO INVÁLIDO";
+            }      
+        }
+
+        function verificar(){
+            var inputVerificar = document.getElementById("verificar");
+            var inputVerificarValue = inputVerificar.value;
+            var exibirResultado = document.getElementById("exibirResultado")
+            var fraseCorreta = "oii meu amor! feliz 4 meses! por essas horas você deve estar me odiando pelo trabalho que esse presente está te dando KKKKK eu te amo infinito, meu jericho, minha amorinha, meu neneco lindo, e, principalmente, meu denguinho. ps.: mensagem curta para não te fazer sofrer tanto"
+            if(inputVerificarValue === fraseCorreta){
+                exibirResultado.innerHTML = "PARABÉNS! RETIRE SEU PREMIO VIA WHATSAPP"
+            }else{
+                exibirResultado.innerHTML = "Tem certeza que acentuou certo? Maiúsculas e minúsculas também? Confira novamente."
+            }
+        }
+
+    </script>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("fundo3Ticket.jpg");
+        }
+
+        .ticketCodeBackground{
+            display: flex;
+            justify-content: center;
+            margin-top: 8%;
+            
+        }
+
+        .entradaCorrigir{
+            display: block;
+            margin-left: 32%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+
+        .break{
+            flex-basis: 100%;
+        }
+
+        .conteudo{
+            text-align: center;
+            position: absolute;
+            margin-top: 190px;
+            width: 500px;
+        }
+
+        .mostrar{
+            display: grid;
+            justify-content: space-around;
+            
+        }
+
+        #input{
+            width: 500px;
+            height: 60px;
+            border-radius: 15px;
+            border: 1px solid rgb(195, 9, 9);
+        }
+
+        .ajeitar{
+            width: 500px;
+        }
+
+        #button{
+            margin-top: 10px;
+            background-color: yellow;
+            font-size: 15pt;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 15px;
+            border: none;
+            width: 150px;
+            height: 60px;
+            cursor: pointer;
+        }
+
+        img{
+            width: 50%;
+        }
+
+        h1, p, h3{
+            color:#FFF2BF;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        p{
+            font-size: 11pt;
+        }
+        h3{
+            margin-left: -13%;
+        }
+        #premio{
+            margin-top:0;
+        }
+
+        #verificar{
+            width: 500px;
+            height: 60px;
+        }
+
+        #buttonVerifiq{
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="ticketCodeBackground">
+        <img src="TICKETCODE.jpg">
+            <div class="conteudo">
+                <input placeholder="Digite seu código aqui" class="todosOsInputs" id="input" type="text">
+                <button id="button" class="ajeitar buttons" onclick="inserirTicket()">RESGATAR</button>
+            </div>
+    </div>
+        
+    <div class="mostrar">
+        <h1>SUA MENSAGEM É:</h1>
+        <h1 id="premio" ></h1>
+    </div>
+    
+
+    <div class="entradaCorrigir">
+        <input class="todosOsInputs" id="verificar" type="text" placeholder="Confira aqui!">
+        <button id="buttonVerifiq" class="buttons" onclick="verificar()">ENVIAR</button>
+        <p class="break">Ps: Escreva em minúsculo e seguindo a norma portuguesa (Acentos | Espaços)</p>
+        <h3 id="exibirResultado"></h3>
+    </div>
+    
+    
+</body>
+</html>
