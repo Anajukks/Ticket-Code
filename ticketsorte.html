@@ -130,7 +130,7 @@
             margin: 0;
             width: 100%;
             height: 100%;
-            background-image: url("Mídias/fundo3Ticket.jpg");
+            background-image: url("fundo3Ticket.jpg");
         }
 
         .ticketCodeBackground{
@@ -142,7 +142,7 @@
 
         .entradaCorrigir{
             display: block;
-            margin-left: 32%;
+            margin-left: 28%;
             margin-top: 10%;
             margin-bottom: 10%;
         }
@@ -196,10 +196,10 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         p{
-            font-size: 11pt;
+            font-size: 10pt;
         }
         h3{
-            margin-left: -13%;
+            margin-left: -9%;
         }
         #premio{
             margin-top:0;
@@ -208,10 +208,20 @@
         #verificar{
             width: 500px;
             height: 60px;
+            border-radius: 15px;
+            border: 1px solid rgb(195, 9, 9);
         }
 
         #buttonVerifiq{
             cursor: pointer;
+            background-color: yellow;
+            font-size: 15pt;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 15px;
+            border: none;
+            width: 150px;
+            height: 60px;
+
         }
 
     </style>
@@ -220,7 +230,7 @@
 
 
     <div class="ticketCodeBackground">
-        <img src="Mídias/TICKETCODE.jpg">
+        <img src="TICKETCODE.jpg">
             <div class="conteudo">
                 <input placeholder="Digite seu código aqui" class="todosOsInputs" id="input" type="text">
                 <button id="button" class="ajeitar buttons" onclick="inserirTicket()">RESGATAR</button>
